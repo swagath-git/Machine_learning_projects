@@ -22,6 +22,51 @@ All Models Performed well outperformed the other models with the highest testing
 
 ---
 
+# Gradient Boosting Classification
+
+## Project Overview
+This project uses the **Mushroom dataset** to build a classification model using the **Gradient Boosting Classifier**.
+The project covers data preprocessing, model training, hyperparameter tuning, feature importance analysis, and model evaluation using Python and Scikit-learn.
+
+## Objectives
+* Preprocess categorical mushroom data using one-hot encoding
+* Split the dataset into training and testing sets
+* Build a Gradient Boosting classification model
+* Evaluate model performance using accuracy and cross-validation
+* Identify the best hyperparameters using GridSearchCV
+* Analyze important features
+* Rebuild the model using selected important features
+* Evaluate the final model using a confusion matrix and classification report
+
+## Technologies Used
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+* Jupyter Notebook
+
+## Model
+**Algorithm:** Gradient Boosting Classifier
+
+
+## Key Learning Outcomes
+
+Through this project, I practiced:
+* Data preprocessing
+* One-hot encoding
+* Train-test splitting
+* Gradient Boosting
+* Cross-validation
+* Hyperparameter tuning
+* GridSearchCV
+* Feature importance
+* Confusion matrix
+* Classification report
+* Model evaluation
+
+---
 
 # 2. Titanic Survival Prediction
 # Overview :-
@@ -40,58 +85,6 @@ Train three different classification models: Logistic Regression Decision Tree C
 The trained models achieve certain accuracy scores on both training and testing datasets, indicating their predictive
 
 ---
-
-# Gradient Boosting Classification
-
-## Project Overview
-
-This project uses the **Mushroom dataset** to build a classification model using the **Gradient Boosting Classifier**.
-
-The project covers data preprocessing, model training, hyperparameter tuning, feature importance analysis, and model evaluation using Python and Scikit-learn.
-
-## Objectives
-
-* Preprocess categorical mushroom data using one-hot encoding
-* Split the dataset into training and testing sets
-* Build a Gradient Boosting classification model
-* Evaluate model performance using accuracy and cross-validation
-* Identify the best hyperparameters using GridSearchCV
-* Analyze important features
-* Rebuild the model using selected important features
-* Evaluate the final model using a confusion matrix and classification report
-
-## Technologies Used
-
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Scikit-learn
-* Jupyter Notebook
-
-## 📊 Model
-
-**Algorithm:** Gradient Boosting Classifier
-
-
-## Key Learning Outcomes
-
-Through this project, I practiced:
-
-* Data preprocessing
-* One-hot encoding
-* Train-test splitting
-* Gradient Boosting
-* Cross-validation
-* Hyperparameter tuning
-* GridSearchCV
-* Feature importance
-* Confusion matrix
-* Classification report
-* Model evaluation
-
-
 
 # Note :-
 This projects was developed primarily to improve my practical experience and build strong hands-on expertise in Machine Learning tools and workflows.
