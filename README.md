@@ -70,71 +70,12 @@ The project covers data preprocessing, model training, hyperparameter tuning, fe
 * Scikit-learn
 * Jupyter Notebook
 
-## 🔄 Project Workflow
-
-### 1. Data Loading
-
-The `mushrooms.csv` dataset is loaded using Pandas.
-
-### 2. Data Preprocessing
-
-The target variable `class` is separated from the input features.
-
-Categorical features are converted into numerical features using:
-
-```python
-pd.get_dummies()
-```
-
-### 3. Train-Test Split
-
-The dataset is divided into training and testing sets using an 80:20 split.
-
-### 4. Gradient Boosting Model
-
-A `GradientBoostingClassifier` is trained using the default parameters.
-
-Model performance is evaluated using:
-
-* Training Accuracy
-* Testing Accuracy
-* 5-Fold Cross-Validation
-
-### 5. Hyperparameter Tuning
-
-`GridSearchCV` is used to find better values for:
-
-* `n_estimators`
-* `learning_rate`
-
-The parameter combinations are evaluated using 5-fold cross-validation.
-
-### 6. Feature Importance
-
-Feature importance scores are extracted from the tuned Gradient Boosting model.
-
-Features with importance greater than `0.01` are selected for the final model.
-
-### 7. Final Model
-
-A new Gradient Boosting model is trained using the important features and the selected hyperparameters.
-
-### 8. Model Evaluation
-
-The final model is evaluated using:
-
-* Training Accuracy
-* Testing Accuracy
-* Cross-Validation Score
-* Confusion Matrix
-* Classification Report
-
 ## 📊 Model
 
 **Algorithm:** Gradient Boosting Classifier
 
 
-## 📌 Key Learning Outcomes
+## Key Learning Outcomes
 
 Through this project, I practiced:
 
