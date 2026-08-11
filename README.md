@@ -1,3 +1,52 @@
+# Elastic Net Regression for Insurance Cost Prediction
+
+## Project Overview
+This project focuses on predicting insurance costs using **Elastic Net Regression**, a supervised machine learning regression algorithm.
+The project includes data preprocessing, model training, hyperparameter tuning using GridSearchCV, cross-validation, and model evaluation.
+
+## Objectives
+* Load and explore the insurance dataset
+* Perform data preprocessing
+* Prepare features for machine learning
+* Split the data into training and testing sets
+* Build an Elastic Net Regression model
+* Tune model hyperparameters using GridSearchCV
+* Evaluate model performance
+* Perform cross-validation
+* Predict insurance costs
+
+## Technologies Used
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+* Jupyter Notebook
+
+## Machine Learning Details
+**Type:** Supervised Machine Learning
+**Problem:** Regression
+
+**Algorithm:** Elastic Net Regression
+Elastic Net combines the properties of **Lasso Regression (L1)** and **Ridge Regression (L2)** regularization.
+
+## Key Learning Outcomes
+Through this project, I practiced:
+* Data preprocessing
+* Feature encoding
+* Supervised machine learning
+* Regression
+* Elastic Net Regression
+* L1 and L2 regularization
+* Hyperparameter tuning
+* GridSearchCV
+* Cross-validation
+* Model evaluation
+* Insurance cost prediction
+
+---
+
 # 1. Fuel Economy Analysis
 Overview This project focuses on analyzing fuel economy data using machine learning techniques. The dataset contains various features related to vehicle specifications, fuel types, and fuel costs.
 
